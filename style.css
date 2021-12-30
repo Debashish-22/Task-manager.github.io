@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    justify-content: center;
+}
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+.vertical-align{
+    align-items: center;
+}
+.bg-red{
+    background-color: rgb(255,0,56);
+}
+.bg-green{
+    background-color: #21E1AE;
+}
+.bg-yellow{
+    background-color: rgb(255,223,0);
+}
+.red{
+    color:rgb(255,0,56);
+}
+.blue{
+    color: #09AEEA;
+}
+.green{
+    color:#21E1AE;
+}
+.yellow{
+    color:rgb(255,223,0);
+}
+.black{
+    color:#444444;
+}
+.none{
+    display: none;
+}
+.canceled{
+    text-decoration: line-through;
+    text-decoration-thickness: 1.5px;
+}
+.icon{
+    font-size: 1.5rem;
+    margin-right: 5px;
+    cursor:pointer;
+}
+.space{
+    letter-spacing: 2px;
+}
+
+.container{
+    height: 100vh;
+    width:100%;
+    background-color:#ecf0f2;
+}
+.task-container{
+    height:80vh;
+    width:500px;
+    border-radius:30px;
+    background-color:#fff ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width:550px){
+    .task-container{
+        width:95%;
+    }
+}
+.notification{
+    width:95%;
+    font-size:1.1rem;
+    padding:5px 0;
+    letter-spacing: 3px;
+    /* background-color: rgb(255,0,56); */
+    /* background-color: #21E1AE; */
+    text-align: center;
+}
+.heading{
+    font-size:2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.inputs{
+    width:95%;
+    padding: 10px;
+    border-radius: 13px;
+    background-color:#fff ;
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inputs input{
+    width:75%;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    /* border-bottom: 1px solid #222222; */
+}
+.inputs button{
+    padding:10px 20px;
+    border: none;
+    border-radius: 20px;
+    color:#fff;
+    background-color: #444444;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.content{
+    height:400px;
+    width:95%;
+    padding:10px 0;
+    overflow-y: auto;
+}
+
+.task{
+    border-radius: 15px;
+    width:95%;
+    padding:10px 5px;
+    font-size:1.3rem;
+    letter-spacing: 2px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
